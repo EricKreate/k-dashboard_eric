@@ -1,0 +1,18 @@
+
+ <div class="createuser">
+ <center>
+  <h1>Users</h1>
+  <md-content style="height: 600px; width:400px;">
+    <md-list>
+      <md-item ng-repeat="user in users">
+        <md-item-content style="background-color:white; color:#000;">
+          <div class="md-tile-content">
+            <h3>{{user.firstname+' '+user.lastname}}</h3>
+            <h4>{{user.email}}</h4>
+          </div>
+        </md-item-content>
+        <md-divider inset></md-divider>
+      </md-item>
+    </md-list>
+  </md-content>
+</div> 
