@@ -4,10 +4,15 @@
 @import 'partials/colors';
 @import 'partials/fonts';
 @import 'partials/grid';
+@import 'partials/navmenu';
 
 @import 'login';
 @import 'createuser';
 
 body>div{
   height: 100%;
+}
+
+body {
+  background-color: #305673;
 }

@@ -1,27 +1,54 @@
-.createuser{
+.createuser {
   height: 100%;
   background-color: #305673;
   background-size: cover;
   text-align: center;
 
   h1{
-    margin-top: 30vh;
+    //margin-top: 30vh;
     font-size: 4em;
   }
 
   md-content{
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
     background-color: rgba(0,0,0,0) !important;
   }
   md-card{
-    background-color: #fff;
+    background-color: #FFF;
+  }
+
+  .card {
+    background-color: #808080;
   }
 
   label{
     float: left;
+    color:#0000FF; //em1
   }
   input{
     width: 100%;
   }
+  
+  md-button {
+    margin-top:20px;
+  }
+
+  .textfields {
+    margin: 0px 5px 0px 5px;
+    background-color:#FFFFFF;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.sideways > li{
+    display: inline-block;
+    width: 210px;
+    margin: 0;
+    vertical-align: top;
+  }
+
 }

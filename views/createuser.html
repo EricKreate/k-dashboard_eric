@@ -1,12 +1,23 @@
-<section class="login">
-  <h1>kreate</h1>
+
+
+<section class="createuser">
+
+  <h1>kreate User</h1>
   <md-content>
-    <md-card style="width: 600px;">
-      <form style="padding: 20px;">
-        <div ><md-text-float label="First Name" ng-model="user.firstname" type="text"></md-text-float></div>
-        <div ><md-text-float label="Last Name" ng-model="user.lastname" type="text"></md-text-float></div>
-        <div ><md-button class="md-raised">Create User</md-button></div>
-      </form>
-    </md-card>
+  <md-card>
+  <form style="padding: 20px;">
+    <ul class="sideways">
+      <li>
+        <md-text-float label="First Name" ng-model="user.firstname" type="text" class="textfields"></md-text-float>
+      </li>
+      <li>
+       <md-text-float label="Last Name" ng-model="user.lastname" type="text" class="textfields"></md-text-float>
+      </li>
+    </ul>
+    <md-text-float label="Email" ng-model="user.email" type="email" class="textfields"></md-text-float>
+    <md-text-float label="Password" ng-model="user.password" type="password" class="textfields"></md-text-float>
+    <div ><md-button class="md-raised">Create User</md-button></div>
+  </form>
+  </md-card>
   </md-content>
 </section>

@@ -2,13 +2,37 @@
 <html ng-app="kreate">
   <head>
     <title>Kreate</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
   </head>
   <body>
-    <div ui-view>
-    </div>
+    <nav class="animenu"> 
+  <ul class="animenu__nav">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">User</a>
+      <ul class="animenu__nav__child">
+        <li><a href="#/createuser">Create</a></li>
+        <li><a href="">View</a></li>
+      </ul>
+    </li>     
+    <li>
+      <a href="#">App</a>
+      <ul class="animenu__nav__child">
+        <li><a href="#/createapp">Create</a></li>
+        <li><a href="">View</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Logout</a>
+    </li>               
+  </ul>
+</nav>
+  <div ui-view>
+    </div> 
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-aria/angular-aria.min.js"></script>
     <script src="bower_components/angular-animate/angular-animate.min.js"></script>
